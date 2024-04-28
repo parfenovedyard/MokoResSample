@@ -14,7 +14,7 @@ compose = "1.6.6"
 compose-plugin = "1.6.2"
 junit = "4.13.2"
 kotlin = "1.9.23"
-moko-resources = "0.24.0-beta-1"
+moko-resources = "0.24.0-beta-2"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }

@@ -95,10 +95,10 @@
 			buildConfigurationList = 7555FFA5242A565B00829871 /* Build configuration list for PBXNativeTarget "iosApp" */;
 			buildPhases = (
 				F36B1CEB2AD83DDC00CB74D5 /* Compile Kotlin Framework */,
+				13FC0B3A2BD9836500F27068 /* Moko Resources */,
 				7555FF77242A565900829871 /* Sources */,
 				B92378962B6B1156000C7307 /* Frameworks */,
 				7555FF79242A565900829871 /* Resources */,
-				13FC0B3A2BD9836500F27068 /* Moko Resources */,
 			);
 			buildRules = (
 			);
@@ -175,7 +175,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT/../gradlew\" -p \"$SRCROOT/../\" :resources:copyFrameworkResourcesToApp \\\n    -Pmoko.resources.PLATFORM_NAME=\"$PLATFORM_NAME\" \\\n    -Pmoko.resources.CONFIGURATION=\"$CONFIGURATION\" \\\n    -Pmoko.resources.ARCHS=\"$ARCHS\" \\\n    -Pmoko.resources.BUILT_PRODUCTS_DIR=\"$BUILT_PRODUCTS_DIR\" \\\n    -Pmoko.resources.CONTENTS_FOLDER_PATH=\"$CONTENTS_FOLDER_PATH\"\n";
+			shellScript = "\"$SRCROOT/../gradlew\" -p \"$SRCROOT/../\" :composeApp:copyFrameworkResourcesToApp \\\n    -Pmoko.resources.PLATFORM_NAME=\"$PLATFORM_NAME\" \\\n    -Pmoko.resources.CONFIGURATION=\"$CONFIGURATION\" \\\n    -Pmoko.resources.ARCHS=\"$ARCHS\" \\\n    -Pmoko.resources.BUILT_PRODUCTS_DIR=\"$BUILT_PRODUCTS_DIR\" \\\n    -Pmoko.resources.CONTENTS_FOLDER_PATH=\"$CONTENTS_FOLDER_PATH\"\n";
 		};
 		F36B1CEB2AD83DDC00CB74D5 /* Compile Kotlin Framework */ = {
 			isa = PBXShellScriptBuildPhase;
